@@ -12,7 +12,7 @@ public class BillPay {
         System.out.println("Subtotal amount: "+sum);
         System.out.println("Additional 18% GST");
         float gst = sum * 18 /100;
-        System.out.println("Your GST bill: "+gst);
+        System.out.println("GST bill: "+gst);
         System.out.format("You have to pay: %.2f",gst);
     }
     

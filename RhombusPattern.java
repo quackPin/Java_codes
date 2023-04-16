@@ -5,7 +5,7 @@ public class RhombusPattern {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("** Your number should be grearter than 5 and also a even number! **");
+        System.out.println("** Your number should be greater than 5 and also a even number! **");
         System.out.print("Enter your number: ");
         int num = sc.nextInt(); // num should be num > 5 and even number for better result
         sc.close();
@@ -43,7 +43,7 @@ public class RhombusPattern {
                 }
             }
         }else{
-            System.out.println("***  Number should be grearter than 5 and also be a even number! ***");
+            System.out.println("***  Number should be greater than 5 and also be a even number! ***");
         }
     }
     

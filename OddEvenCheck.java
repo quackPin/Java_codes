@@ -5,6 +5,7 @@ public class OddEvenCheck{
 
     public static void main(String[] args){
         int num;
+        // Taking input from user
         Scanner scan = new Scanner(System.in);
         System.out.printf("Enter a number: ");
         num = scan.nextInt();
